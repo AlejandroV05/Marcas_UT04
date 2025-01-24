@@ -1,8 +1,4 @@
-var resultado=confirm("¿Quieres hacer una operación aritmética?");
-console.log("Tu resultado --> "+resultado);
-if(resultado){
-    alert("Si :D");
-}
-else{
-    alert("No >:C");
+function saluda(){
+    //alert("Respondo al click de un botón");
+    document.getElementById("demo").innerText="Respondo al click de un botón."
 }
